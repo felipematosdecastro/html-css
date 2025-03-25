@@ -1,0 +1,38 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(204, 236, 203);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h1{
+    color: rgb(1, 34, 0);
+}
+h1#principal{   /*com a tag ID no html esse h1 pode ter diferentes coisas dos demais mesmo usando nesse exemplo a mesma cor no css se usa a tag (h1)# e o nome dado para personalizar! e não precisa colocar h1#principal pode usar somente #principal*/
+
+    /*EM HTML È ID EM CSS È # !!*/
+    /*EM HTML È CLASS EM CSS È (.)*/
+
+    text-align: center;
+    background-color: rgb(68, 248, 62);
+    color: white;
+}
+h2{
+    color: rgb(0, 37, 6);
+}
+.basico{
+    color: rgb(0, 37, 6);
+   
+
+}
+.intermediario{
+    color: rgb(191, 194, 34);
+    
+}
+.avançado{
+    color: rgb(45, 0, 209);
+
+}
+.destaque{
+    background-color: rgb(99, 72, 72);
+    color: ;
+}

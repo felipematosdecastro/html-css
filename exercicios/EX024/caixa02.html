@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+      
+        header{
+           background-color: white;
+           padding: 10px;
+           margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 10px;
+            box-shadow:4px 4px 9px rgba(0, 0, 0, 0.445);
+        }
+        article > aside{
+            background-color: rgb(131, 131, 131);
+        }
+        article{
+            background-color: lightgray;
+        }
+        nav{
+            background-color: rgb(61, 61, 61);
+            padding: 3px;
+            box-shadow: 1px 3px 4px 1px rgba(0, 0, 0, 0.363); /*fazer sombras com o especionar do google */           
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+
+        }
+        footer>p{
+            margin: 0px;
+        }
+           
+   
+        
+     
+    </style>
+</head>
+<body>
+    <header> <!-- para cabesalio-->
+        <h1>Meu site</h1>
+        <nav>  <!--(nav) de menu ( navegação)-->
+            <a href="#">links</a>
+            <a href="#">links</a>
+            <a href="#">links</a>
+            <a href="#">links</a>
+            <a href="#">links</a>
+        </nav>
+    </header>
+    <main> <!--para conteudo principal-->
+    <section id="assuntos">
+
+    </section> <!--seções-->
+    <section id="noticias">
+        <article>
+            <h2> Noticia sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque cum quam velit exercitationem veritatis, magni doloribus eligendi numquam id. Dolorem culpa totam molestias aliquid, adipisci necessitatibus exercitationem minus non fugiat!</p>
+            <aside>
+                <p>Artigo escrito por José da Silva</p>
+            </aside>
+        </article>
+        <article>
+
+        </article>
+    </section>
+
+    </main>
+<footer> <!--rodapé-->
+    <p>Desenvolvido pelo CursoemVideo</p>
+</footer>
+<div id="bola"></div>
+    
+</body>
+</html>
